@@ -11,7 +11,7 @@ class PlatziTripsCupertino extends StatelessWidget {
     // TODO: implement build
     return Scaffold(
       bottomNavigationBar: CupertinoTabScaffold(
-        tabBar: CupertinoTabBar(items: [
+        tabBar: CupertinoTabBar(items: const [
           BottomNavigationBarItem(
               icon: Icon(Icons.home, color: Colors.indigo), label: ""),
           BottomNavigationBarItem(
